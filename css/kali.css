@@ -1,27 +1,53 @@
 body{
+
     margin:5px;
     padding:5px;
     line-height:1.15;
+
  }
   
  h1,h2, h3{
+
     font-weight: bold;
     margin-top:15px;
   
  }
  ul li{
+
     margin-left: 25px;
     list-style-type: upper-roman;
+
  }
 
  nav li {
 
    text-decoration: underline;
    display: inline-block;
-   border: 2px solid #000000;
-   background-color: #12339;
-   border-radius: 25px;
+   border: 2px solid #4d0758;
+   background-color: rgb(82, 225, 241);
+   border-radius: 50px;
    margin: 20px;
-   width: 20%;
-   
+   width: 65px;
+   height: 40px;
+   text-align: center;
+   padding: 3px 3px 3px 3px;
+   font-family: "Lucida Sans", "Lucida Sans Regular", "Locida Grande";
+
+ }
+
+img {
+
+   width: 24%;
+   padding: 20px 20px 20px 20px;
+   border: dotted 2px rgb(196, 72, 175);
+
+ }
+
+#kali {
+
+   text-decoration: dotted;
+   margin: 10px;
+   text-align: left;
+   font-family: "Comic Sans";
+
  }
