@@ -1,15 +1,27 @@
 body{
-   margin:5px;
-   padding:5px;
-   line-height:1.15;
-}
- 
-h1,h2, h3{
-   font-weight: bold;
-   margin-top:15px;
- 
-}
-ul li{
-   margin-left: 25px;
-   list-style-type: upper-roman;
-}
+    margin:5px;
+    padding:5px;
+    line-height:1.15;
+ }
+  
+ h1,h2, h3{
+    font-weight: bold;
+    margin-top:15px;
+  
+ }
+ ul li{
+    margin-left: 25px;
+    list-style-type: upper-roman;
+ }
+
+ nav li {
+
+   text-decoration: underline;
+   display: inline-block;
+   border: 2px solid #000000;
+   background-color: #12339;
+   border-radius: 25px;
+   margin: 20px;
+   width: 20%;
+   
+ }
