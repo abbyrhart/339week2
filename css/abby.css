@@ -46,3 +46,24 @@ body{
 	padding: 100px;
 	text-decoration: overline;
  }
+
+.gallery {
+	display: grid;
+	grid-template-columns: 250px 250px 250px;
+	border: solid 10px #000000;
+	width: 90%;
+	justify-content: space-around;
+	justify-items: center;
+	align-content: space-around;
+	align-items: center;
+ }
+
+ .gallery img {
+	width: 100%;
+	height: 100%;
+}
+
+ .gallery img:last-child {
+	grid-column-start: 1;
+	grid-column-end: 4;
+   }
